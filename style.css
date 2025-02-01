@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -77,7 +79,6 @@ nav {
   color: #777;
 }
 
-
 .app {
   position: relative;
   max-width: 100rem;
@@ -86,7 +87,6 @@ nav {
   grid-template-columns: 4fr 3fr;
   grid-template-rows: auto repeat(3, 15rem) auto;
   gap: 2rem;
-
   opacity: 0;
   transition: all 1s;
 }
@@ -114,7 +114,6 @@ nav {
   font-size: 4.5rem;
   font-weight: 400;
 }
-
 
 .movements {
   grid-row: 2 / span 3;
@@ -160,7 +159,6 @@ nav {
   margin-left: auto;
 }
 
-
 .summary {
   grid-row: 5 / 6;
   display: flex;
@@ -199,7 +197,6 @@ nav {
   cursor: pointer;
 }
 
-
 .operation {
   border-radius: 1rem;
   padding: 3rem 4rem;
@@ -232,14 +229,13 @@ h2 {
   gap: 0.4rem 1rem;
 }
 
-
 .form.form--loan {
   grid-template-columns: 2.5fr 1fr 2.5fr;
 }
+
 .form__label--loan {
   grid-row: 2;
 }
-
 
 .form__input {
   width: 100%;
@@ -287,4 +283,39 @@ h2 {
 
 .timer {
   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto repeat(4, auto);
+    gap: 1rem;
+  }
+
+  .balance {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .summary {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .movements {
+    overflow: auto;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .form__btn {
+    width: 100%;
+  }
+
+  .operation {
+    padding: 2rem;
+  }
 }
