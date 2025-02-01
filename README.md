@@ -1,29 +1,17 @@
-Key Features:
+Bankist - Digital Banking App 🏦💳
+Bankist is a modern, efficient, and user-friendly banking application designed to help users manage their finances effortlessly. With seamless transaction tracking, instant balance updates, and secure login authentication, Bankist provides an intuitive and powerful digital banking experience.
 
-User login with username and PIN
+🚀 Features
+✔ Secure User Authentication – Login with unique credentials to access your account.
+✔ Real-Time Balance Tracking – View your current balance and recent transactions.
+✔ Money Transfers – Send and receive funds instantly.
+✔ Request Loans – Apply for loans based on eligibility.
+✔ Transaction Sorting – Sort deposits and withdrawals easily.
+✔ Account Closure – Close your account securely when needed.
+✔ Auto Logout Security – Automatic logout for inactive users.
+✔ Fully Responsive Design – Optimized for mobile, tablet, and desktop.
 
-Display current balance and transaction history
-
-Perform transfers to other accounts
-
-Request loans based on deposit history
-
-Close account functionality
-
-UI elements for sorting transactions and logging out
-
-Technologies Used:
-
-HTML
-
-CSS
-
-JavaScript
-
-Search Keywords:
-
-JavaScript banking app
-
-HTML CSS JavaScript project
-
-Front-end banking simulation
+💻 Technologies Used
+Frontend: HTML, CSS, JavaScript
+Data Handling: JavaScript Array Methods for transactions
+Security Features: Auto Logout & Secure Authentication
